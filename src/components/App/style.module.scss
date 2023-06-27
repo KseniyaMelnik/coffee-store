@@ -1,0 +1,35 @@
+@import './../../common/styles/scss/variables.scss';
+
+
+.mainImage {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.image {
+    display: block;
+    align-self: end;
+}
+
+.content {
+    align-self: center;
+    margin-left: 200px;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 124px;
+    color: $contrastTextColor;
+}
+
+.mainButton {
+    text-decoration: none;
+    text-align: center;
+}

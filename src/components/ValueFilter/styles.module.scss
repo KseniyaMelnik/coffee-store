@@ -1,0 +1,61 @@
+@import './../../common/styles/scss/variables.scss';
+
+.container {
+	border: 3px solid $primaryColor;
+	border-radius: 5px;
+	max-width: 340px;
+}
+
+.checkboxBtn {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	user-select: none;
+	position: relative;
+}
+.checkboxBtn input[type=checkbox] {
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.checkboxBtn span {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 10px;
+	line-height: 30px;
+	border: 1px solid $primaryColor;
+	border-radius: 5px;
+	transition: background 0.2s ease;
+}
+ 
+/* Checked */
+.checkboxBtn input[type=checkbox]:checked + span {
+	background: $primaryColor;
+}
+ 
+/* Focus */
+.focused span {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover */
+.checkboxBtn:hover {
+	color: #666;
+}
+ 
+/* Active */
+.checkboxBtn input[type=checkbox]:active:not(:disabled) + span {
+	background: #d2c5ac;
+	color: #000;
+}
+ 
+/* Disabled */
+.checkboxBtn input[type=checkbox]:disabled + span {
+	background: #efefef;
+	color: #666;
+	cursor: default;
+}
+.checkboxBtn input[type=checkbox]:checked:disabled + span {
+	background: #f7efdc;
+}

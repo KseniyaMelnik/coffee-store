@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  background-color: #311606;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C0AA83;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #575755;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #898976;
+}
+
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+  background:
+      linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+  background:
+      linear-gradient(30deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(150deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(270deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+  background:
+      linear-gradient(210deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+  

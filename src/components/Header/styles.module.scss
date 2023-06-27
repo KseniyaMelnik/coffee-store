@@ -1,0 +1,10 @@
+.container {
+   position: fixed;
+   width: 100%;
+   left: 50%;
+   transform: translateX(-50%);
+   background-image: url('https://img.freepik.com/free-photo/wooden-texture_1208-334.jpg?t=st=1658063297~exp=1658063897~hmac=a5dd8ba1b37cf2ca7ad276d5fd2d851d4b91040da4067c8631247f99b117f8b3&w=900');
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 2;
+}

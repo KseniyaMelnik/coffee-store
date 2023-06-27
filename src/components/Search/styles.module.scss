@@ -1,0 +1,31 @@
+@import './../../common/styles/scss/variables.scss';
+
+.container {
+    position: relative;
+    width: max-content;
+    font-size: 24px;
+  }
+  
+  .container input {
+    padding: .1em .5em;
+    font-size: 24px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid $primaryColor;
+    &::placeholder {
+      color: $primaryColor;
+    }
+  }
+
+  .container [class*="fa-"] {  
+    position: absolute;
+    right: .5em;
+    height: .75em;
+    top: .3em;
+  }
+
+  .xMark {
+    &:hover {
+      cursor: pointer;
+    }
+  }

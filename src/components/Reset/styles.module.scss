@@ -1,0 +1,19 @@
+@import './../../common/styles/scss/variables.scss';
+
+.button {
+   background-color: $primaryColor;
+   color: $contrastTextColor;
+   margin: 15px 0;
+   padding: 15px 0;
+   font-size: 18px;
+   font-weight: 700;
+   width: 120px;
+   text-align: center;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3 ease-in-out;
+   &:hover {
+    color: black;
+    transition: 0.3 ease-in-out;
+   }
+}

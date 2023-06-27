@@ -1,0 +1,34 @@
+@import './../../common/styles/scss/variables.scss';
+
+
+.container {
+    padding: 10px 0;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/wooden-texture_1208-334.jpg?t=st=1658063297~exp=1658063897~hmac=a5dd8ba1b37cf2ca7ad276d5fd2d851d4b91040da4067c8631247f99b117f8b3&w=900');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .logo img{
+    width: 100px;
+ }
+
+ .github img {
+    width: 50px;
+    display: block;
+ }
+
+ .github {
+    border-radius: 50%;
+    transition: 0.3s all ease-in-out;
+    background-color: $primaryColor;
+    &:hover {
+        background-color: $contrastTextColor;
+    }
+ }
+
+ .copyright {
+    color: $contrastTextColor;
+    font-size: 20px;
+    font-weight: 700;
+ }
