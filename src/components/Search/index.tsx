@@ -1,4 +1,4 @@
-import React, { useState, useEffect, ChangeEvent} from "react";
+import { useState, useEffect, ChangeEvent} from "react";
 import style from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';

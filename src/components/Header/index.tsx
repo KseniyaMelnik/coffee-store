@@ -1,4 +1,3 @@
-import React from "react";
 import { BasketIcon } from "../BasketIcon";
 import { Logo } from "../Logo";
 import { Search } from "../Search";

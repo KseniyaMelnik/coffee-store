@@ -1,4 +1,4 @@
-import React, {ChangeEvent} from "react";
+import { ChangeEvent } from "react";
 import style from './styles.module.scss';
 import { appSlice } from "../../store/reducers/AppSlice"
 import { useAppDispatch, useAppSelector } from "../../hooks/redux";

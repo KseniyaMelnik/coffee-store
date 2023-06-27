@@ -1,4 +1,3 @@
-import React from "react";
 import { RangeFilter } from "../index";
 import { appSlice } from "../../../store/reducers/AppSlice"
 import { useAppSelector } from "../../../hooks/redux";

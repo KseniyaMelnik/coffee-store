@@ -1,4 +1,3 @@
-import React from "react";
 import commonStyles from './../../../common/styles/style.module.scss'
 import { appSlice } from "../../../store/reducers/AppSlice"
 import { useAppDispatch } from "../../../hooks/redux";

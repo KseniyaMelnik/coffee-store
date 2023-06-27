@@ -1,5 +1,5 @@
 import { ActionCreatorWithPayload} from '@reduxjs/toolkit';
-import React, { ChangeEvent, useEffect, useState} from 'react';
+import { ChangeEvent, useEffect, useState} from 'react';
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
 import style from './styles.module.scss';
 

@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from "react";
+import {useEffect, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../../hooks/redux";
 import { appSlice } from "../../../store/reducers/AppSlice"
 import style from "./../styles.module.scss"

@@ -1,4 +1,3 @@
-import React from "react";
 import RSschool from "./../../assets/images/rs_school_js.svg"
 import gitHub from "./../../assets/images/GitHub-Mark-64px.png"
 import style from "./styles.module.scss"

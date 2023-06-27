@@ -1,4 +1,4 @@
-import React, { useEffect, useState, memo } from "react";
+import { useEffect, useState, memo } from "react";
 import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import { IProduct } from "../../models/IProduct";
 import style from './styles.module.scss';

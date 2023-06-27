@@ -1,4 +1,3 @@
-import React from 'react';
 import {useAppDispatch, useAppSelector} from "../../hooks/redux";
 import { IProduct } from '../../models/IProduct';
 import style from "./styles.module.scss"

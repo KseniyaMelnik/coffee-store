@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import {useAppDispatch, useAppSelector} from "../../hooks/redux";
+import { useEffect } from "react";
+import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import { ArabicaFilter } from "../ValueFilter/ArabicaFilter";
 import { BrandFilter } from "../ValueFilter/BrandFilter";
 import { PriceFilter } from "../RangeFilter/PriceFilter";
